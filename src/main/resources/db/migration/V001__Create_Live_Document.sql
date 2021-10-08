@@ -1,5 +1,5 @@
 CREATE TABLE live_document(
-id VARCHAR(50) NOT NULL PRIMARY KEY,
+id INT auto_increment NOT NULL PRIMARY KEY,
 live_name VARCHAR(50) NOT NULL,
 channel_name VARCHAR(100) NOT NULL,
 live_date DateTime,
